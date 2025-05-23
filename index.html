@@ -16,6 +16,13 @@
             border-radius: 2px;
             cursor: pointer;
             margin-right: 8px;
+            transition: opacity .25s ease-in-out;
+        }
+        .subscribe-button:hover {
+            opacity: .7;
+        }
+        .subscribe-button:active {
+            opacity: .3;
         }
         .join-button {
             background-color: rgb(255, 255, 255);
@@ -28,6 +35,14 @@
             border-radius: 2px;
             cursor: pointer;
             margin-right: 8px;
+            transition: background-color .25s ease-in-out, color .25s ease-in-out;
+        }
+        .join-button:hover {
+            background-color: rgb(0, 177, 247);
+            color: white;
+        }
+        .join-button:active {
+            opacity: .7;
         }
         .tweet-button {
             background-color: rgb(29, 155, 240);
@@ -41,6 +56,10 @@
             font-size: 15px;
             cursor: pointer;
             margin-right: 8px;
+            transition: box-shadow .15s ease-in-out;
+        }
+        .tweet-button:hover {
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
         }
         .request-button {
             background-color: rgb(0, 0, 0);
@@ -51,6 +70,10 @@
             border-radius: 2px;
             cursor: pointer;
             margin-right: 8px;
+            transition: opacity .25s ease-in-out;
+        }
+        .request-button:hover {
+            opacity: .8;
         }
         .addtocart-button {
             background-color: rgb(255, 216, 20);
@@ -61,6 +84,10 @@
             border-radius: 17.5px;
             cursor: pointer;
             margin-right: 8px;
+            transform: background-color .25s ease-in-out;
+        }
+        .addtocart-button:hover {
+            background-color: rgb(255, 200, 28);
         }
         .signup-button {
             background-color: rgb(46, 164, 79);
@@ -71,6 +98,10 @@
             border-radius: 5px;
             cursor: pointer;
             margin-right: 8px;
+            transition: box-shadow .15s ease-in-out;
+        }
+        .signup-button:hover{
+            box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
         }
         .getstarted-button {
             background-color: rgb(121, 82, 179);
@@ -81,6 +112,10 @@
             border-radius: 3px;
             cursor: pointer;
             margin-right: 8px;
+            transition: opacity .25s ease-in-out;
+        }
+        .getstarted-button:hover {
+            opacity: .8;
         }
         .download-button {
             background-color: white;
@@ -92,6 +127,11 @@
             border-radius: 3px;
             cursor: pointer;
             margin-right: 8px;
+            transition: background-color .25s ease-in-out, color .25s ease-in-out;
+        }
+        .download-button:hover {
+            background-color: rgb(108, 117, 125);
+            color: white;
         }
         .applyoncmpnyweb-button {
             background-color: rgb(10, 102, 194);
@@ -104,6 +144,10 @@
             border-radius: 17.5px;
             cursor: pointer;
             margin-right: 8px;
+            transition: background-color .25s ease-in-out;
+        }
+        .applyoncmpnyweb-button:hover{
+            background-color: rgb(0, 49, 112);
         }
         .save-button {
             background-color: white;
@@ -117,6 +161,59 @@
             border-radius: 17.5px;
             cursor: pointer;
             margin-right: 8px;
+            transition: background-color .25s ease-in-out;
+        }
+        .save-button:hover {
+            background-color: rgb(201, 228, 255);
+        }
+        a {
+            color: rgb(0, 119, 167);
+            font-size: 20px;
+            cursor: pointer;
+        }
+        a:hover {
+            color: rgba(214, 164, 0, 0.911);
+        }
+        h3 {
+            font-size: 20px;
+            color: rgb(0, 118, 0);
+        }
+        p {
+            font-size: 20px;
+            color: black
+        }
+        .addtocart-button {
+            background-color: rgb(255, 216, 20);
+            color: black;
+            border: none;
+            height: 35px;
+            width: 120px;
+            border-radius: 17.5px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color .25s ease-in-out,opacity .25s ease-in-out;
+        }
+        .addtocart-button:hover{
+            background-color: rgb(255, 200, 28);
+        }
+        .addtocart-button:active {
+            opacity: .6;
+        }
+        .buynow-button {
+            background-color: rgb(255, 164, 28);
+            color: black;
+            border: none;
+            height: 35px;
+            width: 120px;
+            border-radius: 17.5px;
+            cursor: pointer;
+            transition: background-color .25s ease-in-out,opacity .25s ease-in-out;
+        }
+        .buynow-button:hover {
+            background-color: rgb(255, 140, 28);
+        }
+        .buynow-button:active {
+            opacity: .6;
         }
     </style>
     <button class="subscribe-button">SUBSCRIBE</button>
@@ -128,6 +225,12 @@
     <button class="getstarted-button">Get started</button>
     <button class="download-button">Download</button><br><br>
     <button class="applyoncmpnyweb-button">Apply on company website</button>
-    <button class="save-button">Save</button>
+    <button class="save-button">Save</button><br><br>
+    <a href="https://www.amazon.in/" target="_blank">Back to Amazon </a>
+    <h1>Nike Black Running Shoes</h1>
+    <h3>$39 - in stock</h3>
+    <p>Free shipping tomorrow.</p>
+    <button class="addtocart-button">Add to Cart</button>
+    <button class="buynow-button">Buy now</button>
 </body>
 </html>
